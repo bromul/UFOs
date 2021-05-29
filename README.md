@@ -12,7 +12,7 @@ Description of how to perform searches - with images
 
 ### Drawbacks
 
-1 draback of this website
+1 drawback of this website
 
 ### Future Development
 
