@@ -40,8 +40,15 @@ Ultimately, the user can apply up to 5 filters (date, city, state, country, and 
 
 While technically impressive, this website still has some drawbacks that leaves the user wanting. For instance, the event listener within the code is only triggered by 'change'. This is effective for most situations but can sometimes mess up if the page is reloaded while inputs are stil within their boxes. In this situation, the table may not filter properly until the inputs are erased and re-entered. 
 
-
+Additionally, by only offering filtering services, the amount of analysis that can be done on the data is sorely limited. Adding further functionality, e.g., statistics for certain countries, cities, date, shapes, etc., could provide users with greater insight on where UFOs are typicaly seen. This would, of course, be limited by the data we can obtain, but even an incomplete dataset like ours could offer great statistical potential. 
 
 ### Future Development
 
-2 suggestions for future development
+While this project is officially complete, this is also only the beginning for it. It can be improved and developed further to increase functionality and improve the user experience. These potential developments include, but are not limited to:
+- Technically:
+  - Updating the filtering logic and event listeners to ensure the filters always accurately apply to the dataset when the inputs are filled in
+  - Long term, it would be interesting to add a map (heat or otherwise) that marks where UFOs have been sighted. This would provide a nice visualization of the data and allow users to seek out UFO 'hot spots'
+  
+- User Experience:
+  - Adding notes on the shapes that can be filtered. Many 'shapes' are not what people generally think of as a shape, e.g. light, and it may be prudent to make users aware of the possible filters they can use. 
+  - Users might enjoy a 'Sighting of the Day' feature near the top of the page, where one sighting in the data is randomly selected on a daily basis and prominently displayed. This would bring users into _contact_ with sightings they may otherwise miss in the mass of data.
